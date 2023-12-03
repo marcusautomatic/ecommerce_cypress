@@ -1,0 +1,4 @@
+Given the user navigates to the login page
+When the user enters valid credentials (username and password)
+Then the user should be redirected to the dashboard or home page
+And should see a welcome message or user profile indicating successful login

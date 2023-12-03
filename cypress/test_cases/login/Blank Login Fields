@@ -1,0 +1,6 @@
+Given the user navigates to the login page
+When the user attempts to log in with blank username and password fields
+And clicks on the login button
+Then the system should display error messages indicating required fields
+And should not allow the user to log in without filling in the required fields
+

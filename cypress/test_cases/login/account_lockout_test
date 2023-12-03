@@ -1,0 +1,5 @@
+Given the user enters incorrect login credentials multiple times (exceeding the allowed attempts)
+When the user tries to log in again after exceeding the limit
+Then the system should lock the account temporarily
+And should display a message indicating the account is locked
+And prompt the user to reset the password or contact support
